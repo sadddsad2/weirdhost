@@ -2,7 +2,7 @@ name: Weirdhost Auto Renew
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 19 * * *'  # 北京凌晨 03:34
+    - cron: '20 20 * * *'  # 北京凌晨 04:20
     - cron: '46 11 * * *'  # 北京晚间 19:46
 
 jobs:
