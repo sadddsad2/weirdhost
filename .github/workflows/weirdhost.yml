@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '23 21 * * *'  # 北京凌晨 05:23
-    - cron: '53 12 * * *'  # 北京晚间 20:53
+    - cron: '39 11 * * *'  # 北京晚间 19:39
 
 jobs:
   renew:
